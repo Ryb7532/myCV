@@ -1,0 +1,95 @@
+\documentclass[10pt]{article}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{titlesec}
+\usepackage{scrextend}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage[style=authoryear]{biblatex}
+\usepackage[dvipdfmx]{hyperref}
+\nocite{*}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+}
+
+\urlstyle{same}
+\titleformat{\section}{\Large\sffamily\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\baselineskip}{12pt}
+\pagestyle{empty}
+
+\begin{minipage}[h]{11cm}
+  {\huge\sf\textbf{Ryubu Hosoki}\par}
+  \vspace{2mm}
+  {\large\sf\textbf{Ph.D. student}\par}
+  \vspace{2mm}
+  \begin{minipage}[t]{6cm}
+    \begin{description}[align=left,leftmargin=1.5cm,style=multiline]
+      \setlength{\itemsep}{0pt}
+      \item [Phone] +81 90 6462 7532
+      \item [Email] hosoki.r.aa@m.titech.ac.jp
+    \end{description}
+  \end{minipage}
+  \begin{minipage}[t]{5cm}
+    \begin{description}[align=left,leftmargin=1.8cm,style=multiline]
+      \setlength{\itemsep}{0pt}
+      \item [Github] \href{https://github.com/Ryb7532}{@Ryb7532}
+      \item [Address] Tokyo, Japan
+      % \item [Twitter] \href{https://twitter.com/ryubu_hosoki}{@ryubu\_hosoki}
+    \end{description}
+  \end{minipage}
+  \begin{description}[align=left,leftmargin=2cm,style=multiline]
+    \setlength{\itemsep}{0pt}
+    \item [Research Interests] Distributed Deep Learning, Model Parallelism, Pipeline Parallelism
+  \end{description}
+\end{minipage}
+\begin{minipage}[h]{5.5cm}
+  \raggedleft
+  \includegraphics[width=4cm]{../images/clip.pdf}
+\end{minipage}
+
+
+\section{Education}
+\begin{description}[align=left,leftmargin=3.5cm,style=multiline]
+  \item[2023.4 -] {\bf Ph.D. Mathematical and Computing Science, Tokyo Institute of Technology, Tokyo, Japan.}
+  \item[2021.4 - 2023.3] {\bf Master of Science, Tokyo Institute of Technology, Tokyo, Japan.}\\ GPA: 3.43/4.50
+  \item[2017.4 - 2021.3] {\bf Bachelor of Science, Tokyo Institute of Technology, Tokyo, Japan.}\\ GPA: 2.88/4.50
+\end{description}
+
+
+\section{Employment History}
+\begin{description}[align=left,leftmargin=3.5cm,style=multiline]
+  \item[2023.10 -] Institute of Physical and Chemical Research (RIKEN), Kobe, Junior Research Associate. (estimated)
+  \item[2021.07 - 2023.03] National Institute of Advanced Industrial Science and Technology (AIST), Tokyo, Research Assistant.
+\end{description}
+
+
+\section{Scholarships}
+\begin{description}[align=left,leftmargin=2.5cm,style=multiline]
+  \item[2023.10 -] RIKEN Junior Research Associate.
+  \item[2023.04 -] Tokyo Tech Tsubame Scholarship for Doctoral Students.
+\end{description}
+
+
+\section{Publications}
+\subsection{Domestic Workshop (Unrefereed)}
+\begin{description}[align=left,leftmargin=0.5cm,style=multiline]
+  \item[1.] IPSJ SIG Technical Report, 2021-HPC-180, No.9, online, July 2021. (First author)
+  \item[2.] IPSJ SIG Technical Report, 2022-HPC-185, No.16, Shimonoseki, July 2022. (First author)
+\end{description}
+
+
+\section{Skills}
+\begin{description}[align=left,leftmargin=2.5cm,style=multiline]
+  \setlength{\itemsep}{0pt}
+  \item [Languages] Japanese (native), English (intermediate)
+  \item [Coding] \LaTeX, C/C++, Python, Scala, Ruby, Linux
+\end{description}
+\end{document}
